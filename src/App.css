@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.App{
+ background-image: url('https://www.pointm.tn/themes/pointm/img/event/bg-offre-beaute.jpg');
+ background-color: #fef4ec;
+ background-repeat:no-repeat ;
+ background-position:top center ;
+ background-attachment: fixed;
+ height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page{
+ width: 80%;
+  height: 4000px;
+ margin: 120px auto 0 auto;
+ background-color: white;
+ vertical-align: baseline;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(25, 25, 25, 0.885);
+  height:41px;
+  
+  
+}
+.nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 15px;
+  padding: 10px 40px ;
+}
+.nav-container{
+  background-color: white;
+  height: 150px;
+  display: flex;
+  
+}
+.nav-container img {  
+  width: 277px;
+  height: 49px; 
+  margin: 40px 45px ;
+}
+.rech-icon{
+ display: flex;
+ align-items: center;  
+}
+.rech-icon input{
+  width: 299px;
+  height: 40px;
+  margin-left: 30px;
+  padding: 8px;
+  font-size: 20px;
+}
+.rech-icon ion-icon{
+  color: #777;
+  font-size: 18px;
+}
+.icon {
+  color: red;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 500px;
+  font-size: 40px;
+  margin-left: 90px;
+
+}
+.sectionn{
+  width: 80%;
+  height: px ;
+  padding-left: 15px; 
+  padding-right: 15px;
+  background: white;
+}
+.sectionn ul {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-weight: 700;
+  margin-left: 60px;
+  padding: 0% auto;
+}
+.sectionn img{
+width: 1300px;
+height: 544px;
+object-fit: cover;
+margin-top: 30px ;
+margin-left: 13px;
+
+}
+
+.nouvetee{
+  width: 1140px;
+  height: 54px;
+  font-size :40px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 31px;
+  margin-left: 70px;
+  color: #E03E52;
+  text-transform: uppercase;
+}
+.nouveau-card{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+.nouvel-parfum{
+  width: 190px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nouvel-parfum img{
+  width: 132px;
+  height: 132px;
+}
+.nouvel-parfum p{
+  margin-top: 10px;
+}
+.nouvel-parfum h4{
+  margin-top: 8px;
+}
+.meilleur{
+  margin-top: 30px;
+  margin-left: 40px;
+  padding-bottom:20px;
+  color:rgba(25, 25, 25, 0.885) !important;
+}
+.social-media{
+  width: 100%;
+  height: 465px;
+  background-color: #f4f4f4;
+  margin: 50px auto ;
+}
+.icon-media{
+  width: 80%;
+  height: 76px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
+  text-align: center;
+  margin-left: 110px;
 
-.App-link {
-  color: #61dafb;
 }
+.iconmed{
+  padding: 50px;
+  font-weight: 700;
+  font-size: 60px;
+}
+.media-container .titre{
+  font-size: 35px;
+  font-weight: 500;
+  height: 36px;
+  color: #E03E52;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 22px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.media-container .parag{
+  width: 90%;
+  text-align: justify;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px auto;
+  font-style: normal;
+  line-height: 20px;
+  
+}
+.footer-container{
+  width: 1200;
+  height: 456px; 
+  background-color: #202020;
+} 
+.container{
+  width: 1170px;
+  height: 341px;
+  color:#777777 ;
+  display: flex;
+  justify-content: space-between;
+}
+.colum{
+  width: 390px;
+  height: 341px;
+  margin-top: 50px ;
+  margin-left: 150px;
+ 
+
 }
